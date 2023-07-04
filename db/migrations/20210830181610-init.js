@@ -7,6 +7,7 @@ const { PRODUCT_TABLE } = require('./../models/product.model');
 const { ORDER_TABLE } = require('./../models/order.model');
 const { ORDER_PRODUCT_TABLE } = require('./../models/order-product.model');
 
+console.log({ 'Mensaje': 'Archivo de Migracion' })
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {

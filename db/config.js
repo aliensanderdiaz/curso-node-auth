@@ -1,5 +1,7 @@
 const { config } = require('./../config/config');
 
+console.log({ config })
+
 module.exports = {
   development: {
     url: config.dbUrl,
